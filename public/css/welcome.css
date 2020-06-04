@@ -1,0 +1,111 @@
+html body {
+  overflow: hidden;
+  background-color: #fff;
+  color: #636b6f;
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  height: 100vh;
+  margin: 0;
+}
+
+html body .full-height {
+  height: 100vh;
+}
+
+html body .flex-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html body .position-ref {
+  position: relative;
+}
+
+html body .top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+html body .content {
+  text-align: center;
+}
+
+html body .title {
+  font-size: 84px;
+}
+
+html body .links > div {
+  display: inline-block;
+  margin: 5px;
+}
+
+html body .links > div a {
+  color: #636b6f;
+  padding: 0 18px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: font-size .5s ease;
+  transition: font-size .5s ease;
+}
+
+html body .links > div a:hover {
+  -webkit-transition: font-size .5s ease;
+  transition: font-size .5s ease;
+  font-size: 1.5em;
+}
+
+html body .links > div a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #636b6f;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+html body .links > div a:hover::before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+html body .m-b-md {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  html body .title {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  html body .title {
+    font-size: 45px;
+  }
+  html body .links > a {
+    padding: 0 18px;
+    font-size: 12px;
+  }
+  html body p {
+    font-size: 13px;
+  }
+}
+/*# sourceMappingURL=welcome.css.map */
